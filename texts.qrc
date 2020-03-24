@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/information">
+        <file>text_editor_info.txt</file>
+    </qresource>
+</RCC>
