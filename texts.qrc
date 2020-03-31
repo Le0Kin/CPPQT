@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/information">
+        <file>text_editor_info_RU.txt</file>
+        <file>text_editor_info_EN.txt</file>
+    </qresource>
+</RCC>
