@@ -1,0 +1,61 @@
+MainWindow {
+	background-color: #101010;
+	color: yellow;
+	}
+settings_window {
+	background-color: #101010;
+	color: yellow;
+	}
+QMenuBar {
+	background-color: #101010;
+	color: yellow;
+	}
+QMenu {
+	background-color: #101010;
+	color: yellow;
+	}
+QLabel {
+	color: yellow;
+	}
+QLineEdit {
+	background-color: #000000;
+	color: yellow;
+	border: 1 px solid #606060;
+	}
+QTextEdit {
+	background-color: #000000;
+	color: yellow;
+	border: 1 px solid #606060;
+	}
+QTabWidget {
+	background-color: #000000;
+	color: yellow;
+	border: 1 px solid #606060;
+	}
+QTabWidget::tab {
+	background-color:#000000;
+	color: yellow;
+	border: 1 px solid #000;
+	}
+QTabWidget::tab:selected {
+	background-color:yellow;
+	color: #000;
+	border: 1 px solid #000;
+	}
+QPushButton {
+	background-color: #404040;
+	color: yellow;
+	border: 1 px solid #606060;
+	}
+QComboBox {
+	background-color: #404040;
+	color: yellow;
+	}
+QComboBox::drop-arrow {
+	background-color: #404040;
+	color: yellow;
+	}
+QComboBoxQAbstractItemView {
+	background-color: #404040;
+	color: yellow;
+	}

@@ -1,0 +1,61 @@
+MainWindow {
+	background-color: #a3def8;
+	color: #000000;
+	}
+settings_window {
+	background-color: #a3def8;
+	color: #000000;
+	}
+QMenuBar {
+	background-color: #a3def8;
+	color: #000000;
+	}
+QMenu {
+	background-color: #a3def8;
+	color: #000000;
+	}
+QLabel {
+	color: #000000;
+	}
+QLineEdit {
+	background-color: #269dce;
+	color: #000000;
+	border: 1 px solid #606060;
+	}
+QTextEdit {
+	background-color: #269dce;
+	color: #000000;
+	border: 1 px solid #606060;
+	}
+QTabWidget {
+	background-color: #269dce;
+	color: #000000;
+	border: 1 px solid #606060;
+	}
+QTabBar::tab {
+	background-color:##269dce;
+	color: #000000;
+	border: 1 px solid #000000;
+	}
+QTabBar::tab:selected {
+	background-color:#a3def8;
+	color: #000000;
+	border: 1 px solid #000000;
+	}
+QPushButton {
+	background-color: #269dce;
+	color: #000000;
+	border: 1 px solid #606060;
+	}
+QComboBox {
+	background-color: #269dce;
+	color: #000000;
+	}
+QComboBox::drop-arrow {
+	background-color: #269dce;
+	color: #000000;
+	}
+QComboBoxQAbstractItemView {
+	background-color: #269dce;
+	color: #000000;
+	}
