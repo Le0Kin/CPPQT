@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>485</width>
+    <height>406</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>485</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>QT Домашнее задание №7</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="text_editor_label">
+        <property name="text">
+         <string>Текстовый редактор</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="text_editor_author">
+        <property name="placeholderText">
+         <string>Имя автора при сохранении в .bin формат</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTabWidget" name="text_editor_tab_widget"/>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="text_editor_add_table">
+        <property name="text">
+         <string>Добавить таблицу</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="text_editor_undo">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>Отменить изменение</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>485</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="file">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="new_file"/>
+    <addaction name="open_file"/>
+    <addaction name="open_file_readOnly"/>
+    <addaction name="separator"/>
+    <addaction name="save_txt"/>
+    <addaction name="save_bin"/>
+    <addaction name="separator"/>
+    <addaction name="print"/>
+    <addaction name="separator"/>
+    <addaction name="quit"/>
+   </widget>
+   <widget class="QMenu" name="other">
+    <property name="title">
+     <string>Разное</string>
+    </property>
+    <addaction name="translate"/>
+    <addaction name="settings"/>
+    <addaction name="about"/>
+   </widget>
+   <addaction name="file"/>
+   <addaction name="other"/>
+  </widget>
+  <action name="open_file_readOnly">
+   <property name="text">
+    <string>Открыть файл только для чтения</string>
+   </property>
+  </action>
+  <action name="open_file">
+   <property name="text">
+    <string>Открыть файл</string>
+   </property>
+  </action>
+  <action name="new_file">
+   <property name="text">
+    <string>Новый файл</string>
+   </property>
+  </action>
+  <action name="save_txt">
+   <property name="text">
+    <string>Сохранить файл в txt</string>
+   </property>
+  </action>
+  <action name="save_bin">
+   <property name="text">
+    <string>Сохранить файл в bin</string>
+   </property>
+  </action>
+  <action name="about">
+   <property name="text">
+    <string>Справка</string>
+   </property>
+  </action>
+  <action name="translate">
+   <property name="text">
+    <string>Translate</string>
+   </property>
+  </action>
+  <action name="quit">
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </action>
+  <action name="settings">
+   <property name="text">
+    <string>Настройки</string>
+   </property>
+  </action>
+  <action name="print">
+   <property name="text">
+    <string>Печать файла</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

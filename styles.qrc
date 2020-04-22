@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/styles">
+        <file>style_blue.css</file>
+        <file>style_dark.css</file>
+        <file>style_light.css</file>
+        <file>style_yellow.css</file>
+    </qresource>
+</RCC>
