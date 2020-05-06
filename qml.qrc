@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Task.qml</file>
+        <file>FormAddTask.qml</file>
+    </qresource>
+</RCC>
