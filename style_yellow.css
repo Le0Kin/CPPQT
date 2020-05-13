@@ -1,0 +1,95 @@
+MainWindow {
+	background-color: #101010;
+	color: yellow;
+	}
+settings_window {
+	background-color: #101010;
+	color: yellow;
+	}
+QMenuBar {
+	background-color: #101010;
+	color: yellow;
+	}
+QMenu {
+	background-color: #101010;
+	color: yellow;
+    border: 1px solid #606060;
+    border-top: 0px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+	}
+QMenu::item {
+    padding: 3px;
+    border-radius: 10px;
+}
+QMenu::item:selected {
+    padding: 3px;
+    border-radius: 1px;
+    background-color: #A0A000;
+}
+QLabel {
+	color: yellow;
+	}
+QLineEdit {
+	background-color: #606060;
+	color: yellow;
+	border: 1px solid #000000;
+    border-radius: 3px;
+	}
+QTextEdit {
+    background-color: #606060;
+    margin: 0px;
+    padding: 0px;
+    border: 0px solid yellow;
+}
+QTabWidget {
+    background-color: #101010;
+    padding: 0px;
+    margin: 0px;
+    border: 0px solid yellow;
+	}
+QTabWidget::tab-bar {
+    left: 0px;
+}
+QTabBar::tab {
+    border: 1px solid #000000;
+    background-color: #101010;
+    color: yellow;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 3px;
+}
+QTabBar::tab:selected {
+    border: 1px solid #000000;
+    background-color: #606060;
+    color: yellow;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 3px;
+}
+QPushButton {
+	background-color: #606060;
+	color: yellow;
+	border: 0.5px solid #000000;
+    border-radius: 3px;
+    padding: 3px;
+	}
+QPushButton:pressed {
+    background-color: #A0A000;
+}
+QComboBox {
+	background-color: #606060;
+	color: yellow;
+	}
+QComboBox::drop-arrow {
+	background-color: #606060;
+	color: yellow;
+	}
+QComboBoxQAbstractItemView {
+	background-color: #606060;
+	color: yellow;
+	}
+QSpinBox {
+    background-color: #606060;
+	color: yellow;
+}

@@ -1,0 +1,5 @@
+"Undo" - Undoes the last action.
+
+"Save to txt file" - Saves typed text to a .txt file.
+
+"Save to bin file" - Saves the typed text in a .bin file with the author at the beginning of the file.

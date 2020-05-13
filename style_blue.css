@@ -1,0 +1,95 @@
+MainWindow {
+	background-color: #A3DEF8;
+	color: #000000;
+	}
+settings_window {
+	background-color: #A3DEF8;
+	color: #000000;
+	}
+QMenuBar {
+	background-color: #A3DEF8;
+	color: #000000;
+	}
+QMenu {
+	background-color: #A3DEF8;
+	color: #000000;
+    border: 1px solid #269DCE;
+    border-top: 0px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+	}
+QMenu::item {
+    padding: 3px;
+    border-radius: 10px;
+}
+QMenu::item:selected {
+    padding: 3px;
+    border-radius: 1px;
+    background-color: #269DCE;
+}
+QLabel {
+	color: #000000;
+	}
+QLineEdit {
+	background-color: #269DCE;
+	color: #000000;
+	border: 1px solid #606060;
+    border-radius: 3px;
+	}
+QTextEdit {
+    background-color: #269DCE;
+    margin: 0px;
+    padding: 0px;
+    border: 0px solid #000000;
+}
+QTabWidget {
+    background-color: #A3DEF8;
+    padding: 0px;
+    margin: 0px;
+    border: 0px solid #000000;
+	}
+QTabWidget::tab-bar {
+    left: 0px;
+}
+QTabBar::tab {
+    border: 1px solid #606060;
+    background-color: #A3DEF8;
+    color: #000000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 3px;
+}
+QTabBar::tab:selected {
+    border: 1px solid #606060;
+    background-color: #269DCE;
+    color: #000000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 3px;
+}
+QPushButton {
+	background-color: #269DCE;
+	color: #000000;
+	border: 0.5px solid #606060;
+    border-radius: 3px;
+    padding: 3px;
+	}
+QPushButton:pressed {
+    background-color: #267ACE;
+}
+QComboBox {
+	background-color: #269DCE;
+	color: #000000;
+	}
+QComboBox::drop-arrow {
+	background-color: #269DCE;
+	color: #000000;
+	}
+QComboBoxQAbstractItemView {
+	background-color: #269DCE;
+	color: #000000;
+	}
+QSpinBox {
+    background-color: #269DCE;
+	color: #000000;
+}
